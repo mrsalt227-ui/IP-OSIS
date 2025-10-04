@@ -1,0 +1,120 @@
+/* === STYLE UMUM === */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #e9f8ef, #ffffff);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* === HEADER === */
+header {
+  background: linear-gradient(135deg, #00994d, #00b65c);
+  color: white;
+  padding: 1.2rem 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 100px;
+  border-radius: 15px;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0.5rem 0 0;
+  font-size: 1.3rem;
+}
+
+header nav {
+  margin-top: 0.5rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+header nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* === MAIN CONTENT === */
+main {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #007a3d;
+  margin-top: 1rem;
+}
+
+/* === CARD (untuk pengumuman, anggota, dsb) === */
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0, 128, 64, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 128, 64, 0.25);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 0.8rem;
+}
+
+/* === PENGUMUMAN === */
+.announcement {
+  background: #f9fff9;
+  border-left: 5px solid #00a859;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* === FOOTER === */
+footer {
+  background: #e9f8ef;
+  color: #444;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #cce7d2;
+}
+
+/* === TOMBOL === */
+button, .btn {
+  background: linear-gradient(135deg, #00994d, #00b65c);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(135deg, #00b65c, #00d06f);
+  transform: scale(1.05);
+}
